@@ -1,18 +1,23 @@
 body{
     margin: 0;
 }
-p{
-    border: 2px white solid;
-    height: 88vh;
+div.main_text{
+    border: 2px black solid;
+    height: 89vh;
+    margin-top: 20px;
     margin-right: 10px;
     margin-left: 10px;
     background-color: black;
     color: white;
-    font-size: 20px;
-    text-align: center;
+    text-align: left;
+    overflow-y: scroll;
+}
+ul.text{
+    font-size: 15px;
 }
 ul{
     font-size: 20px;
+    color: white;
 }
 ol{
     font-size: 15px;
@@ -39,7 +44,7 @@ ol{
 }
 .next{
     position: absolute;
-    bottom: 20px;;
+    bottom: 15px;;
     right: 12px;
     font-size: 20px;
     border: outset 2px gray;
@@ -49,8 +54,8 @@ ol{
 }
 .back{
     position: absolute;
-    bottom: 20px;
-    left: 24.85%;
+    bottom: 15px;
+    left: 24.95%;
     font-size: 20px;
     border: outset 2px gray;
     background-color: gray;
@@ -60,4 +65,10 @@ ol{
 a{
     text-decoration: none;
     color: white;
+}
+strong.strong{
+    font-style: oblique;
+}
+h2{
+    margin-top: 5px; 
 }
